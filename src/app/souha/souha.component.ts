@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-souha',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SouhaComponent implements OnInit {
 
-  constructor() { }
+  souhaage='26ans'
+  constructor(private router: Router) { 
+     }
 
   ngOnInit(): void {
   }
 
 }
+
+
+
